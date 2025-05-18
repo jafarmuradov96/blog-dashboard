@@ -38,3 +38,22 @@ The design adapts well to different screen sizes (mobile, tablet, desktop)
 A container max-width limit of 1200px is applied to keep content centered and readable on large screens
 
 
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the project
+git clone https://github.com/jafarmuradov96/blog-dashboard.git
+
+# Navigate into the project folder
+cd blog-dashboard
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+🚀 Live Demo & Repository
+
+🔗 Live on Vercel: https://blog-dashboard-teal.vercel.app
