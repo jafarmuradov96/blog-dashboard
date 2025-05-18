@@ -1,0 +1,22 @@
+.chartSection {
+  margin-top: 51px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 264px 264px 552px;
+  gap: 24px;
+  justify-content: center;
+}
+
+@media (max-width: 1150px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0 16px;
+  }
+
+  .grid > * {
+    width: 100% !important;
+  }
+}

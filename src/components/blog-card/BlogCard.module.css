@@ -1,0 +1,104 @@
+.blogTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  margin-bottom: 5px;
+  color: var(--text-secondary);
+}
+
+.blogWriter {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: var(--text-third);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  position: relative;
+}
+
+.writerSpan {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: var(--text-secondary);
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(58, 53, 65, 0.05);
+}
+
+.blogMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px 0px;
+}
+
+.meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.metaText {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-primary);
+  font-size: 13px;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+}
+
+.blogDesc {
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  margin-top: 15px;
+}
+
+.copyIcon {
+  cursor: pointer;
+  transform: translateY(3px);
+  position: relative;
+}
+
+
+.unionTooltip {
+  position: absolute;
+  top: -2px; 
+  left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 25px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+}
+
+.copyIcon:hover .unionTooltip {
+  opacity: 1;
+}
+
+.tooltipBg {
+  position: absolute;
+  z-index: -1;
+}
+
+.tooltipText {
+  font-size: 11px !important;
+  font-weight: 600;
+  color: white;
+  z-index: 1;
+  transform: translateY(-4px);
+}

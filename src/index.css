@@ -1,0 +1,97 @@
+:root {
+  --color-bg: #DDE1F2;
+  --color-card-bg: #FCFCFC;
+  --text-primary: #3A3541;
+  --text-secondary: rgba(58, 53, 65, 0.871);
+  --text-third: rgba(58, 53, 65, 0.47);
+  --color-border: #F1F1F1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-primary);
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textPrimary);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chart-container {
+  background-color: white;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.chart-title {
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+
+.container-site {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 1200px) {
+  .container-site {
+    max-width: 1000px;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-site {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-site {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-site {
+    max-width: 100%;
+  }
+}
+
