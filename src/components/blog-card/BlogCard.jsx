@@ -4,7 +4,7 @@ import dateIcon from '../../assets/icons/date.svg';
 import userIcon from '../../assets/icons/user-view.svg';
 import categoryIcon from '../../assets/icons/category.svg';
 import copyIcon from '../../assets/icons/copy.svg';
-import unionIcon from '../../assets/icons/union.svg';
+import unionIcon from '../../assets/icons/Union.svg';
 import { formatDate, truncateText } from '../../utils/helpers';
 import { useState } from 'react';
 
